@@ -42,4 +42,9 @@
 		</fields>
 	</config>
 
+	<updateservers>
+         <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" priority="1" name="Tx Selectionshare"><![CDATA[https://raw.githubusercontent.com/themexpert/tx_selectionshare/master/manifest.xml]]></server>
+    </updateservers>
+
 </extension>
