@@ -13,12 +13,14 @@
 
 	<files>
 		<filename plugin="tx_selectionshare">tx_selectionshare.php</filename>
+		<folder>admin</folder>
 		<filename>index.html</filename>
 	</files>
 
 	<media folder="media" destination="tx_selectionshare">
 		<filename>selection-sharer.css</filename>
 		<filename>selection-sharer.js</filename>
+		<folder>images</folder>
 	</media>
 
 	<languages folder="language">
@@ -29,11 +31,13 @@
 	<config>
 		<fields name="params">
 
-			<fieldset name="basic">
+			<fieldset name="basic" addfieldpath="/plugins/system/tx_selectionshare/admin">
 
 				<field name="appid" type="text" default=""
 					label="PLG_TX_SELECTIONSHARE_APPID_LABEL" description="PLG_TX_SELECTIONSHARE_APPID_DESC" />
 
+				<field type="basicfield" name="info" />
+					
 			</fieldset>
 		</fields>
 	</config>
