@@ -48,7 +48,7 @@ class PlgSystemTx_SelectionShare extends JPlugin
 		$doc = JFactory::getDocument();
 		$doc->addScript('media/tx_selectionshare/selection-sharer.js');
 		$doc->addStylesheet('media/tx_selectionshare/selection-sharer.css');
-		$doc->addScriptDeclaration("jQuery(function($){jQuery('p').selectionSharer();});");
+		$doc->addScriptDeclaration("jQuery(function($){jQuery('div').selectionSharer();});");
 
 		if($appid){
 			$doc->setMetadata('fb:app_id', $appid);
