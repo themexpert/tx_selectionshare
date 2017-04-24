@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>System - Tx SelectionShare</name>
+        <description>DigiCom component update</description>
+        <element>tx_selectionshare</element>
+        <type>plugin</type>
+        <version>1.0.0</version>
+        <client>site</client>
+        <infourl title="Tx SelectionShare">https://github.com/themexpert/tx_selectionshare/releases/tag/1.0.0</infourl>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/themexpert/tx_selectionshare/releases/download/1.0.0/plg_system_tx_selectionshare.zip</downloadurl>
+        </downloads>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+        <targetplatform name="joomla" version="3.[456789]" />
+    </update>
+</updates>

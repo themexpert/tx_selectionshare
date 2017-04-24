@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>System - Tx SelectionShare to share on social media</name>
+	<creationDate>21-04-2017</creationDate>
+	<author>ThemeXpert</author>
+	<authorEmail>support@themexpert.com</authorEmail>
+	<authorUrl>https://www.themexpert.com</authorUrl>
+	<copyright>ThemeXpert</copyright>
+	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+	<version>1.0.0</version>
+
+	<description>PLG_SYSTEM_TX_SELECTIONSHARE_XML_DESCRIPTION</description>
+
+	<files>
+		<filename plugin="tx_selectionshare">tx_selectionshare.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<media folder="media" destination="tx_selectionshare">
+		<filename>selection-sharer.css</filename>
+		<filename>selection-sharer.js</filename>
+	</media>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_tx_selectionshare.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_tx_selectionshare.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+
+				<field name="appid" type="text" default=""
+					label="PLG_TX_SELECTIONSHARE_APPID_LABEL" description="PLG_TX_SELECTIONSHARE_APPID_DESC" />
+
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
